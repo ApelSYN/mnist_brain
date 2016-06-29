@@ -1,0 +1,28 @@
+{
+  "name": "mnist_brain",
+  "version": "1.0.0",
+  "description": "Recognizing hand-written digits from MNIST dataset with Brain.js. Neural Networks example.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApelSYN/mnist_brain.git"
+  },
+  "author": "Oleg Cherniy <oleg.cherniy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ApelSYN/mnist_brain/issues"
+  },
+  "homepage": "https://github.com/ApelSYN/mnist_brain#readme",
+  "dependencies": {
+    "brain": "^0.7.0",
+    "mnist": "git+https://github.com/ApelSYN/mnist.git"
+  },
+  "devDependencies": {
+    "webpack": "*",
+    "json-loader": "^0.5.4"
+  },
+  "engine": "node >= 4.2.0"
+}

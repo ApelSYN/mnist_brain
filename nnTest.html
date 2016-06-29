@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MNIST Digits Simples</title>
+    <!-- script src="./node_modules/mnist/dist/mnist.js"></script-->
+    <script src="./lib/sketchpad.js"></script>
+    <script src="./dist/build.js"></script>
+    <script>
+        console.log(window["nn"]);
+    </script>
+    <style>
+        body {
+            margin: 10px;
+            padding: 10px;
+            font-family:Arial;
+        }
+        #container {
+            position:relative;
+            width: 500px;
+        }
+        #sketchpad {
+            border: 5px solid #077;
+        }
+        #thumbnail {
+            border: 1px solid #077;
+        }
+        #result {
+            font-size: 128pt; /* Размер шрифта в пунктах */
+            float: right;
+            width: 120px;
+            height: 280px;
+            border: 5px solid #fff;
+            text-align: center;
+            line-height: 280px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Recognizing hand-written digits from MNIST dataset with Brain.js. Neural Networks live example.</h1>
+    <p>
+    Draw a digit in the box below and click the "recognize" button.
+    </p>
+    <br/>
+    <div id="container">
+        <canvas id="sketchpad" width="280" height="280">Sorry, your browser is not supported.</canvas>
+        <canvas id="thumbnail" width="28" height="28">Sorry, your browser is not supported.</canvas>
+        <div id="result"></div>
+        <div style="clear: right"></div>
+    </div>
+    <button type="button" id="sketchClearButton">Clear</button>
+    <button type="button" id="sketchRecogniseButton">Recognise</button>
+
+    <br/>
+    <br/>
+    <br/>
+    <p>
+        More info about this simple <a href="https://github.com/ApelSYN/mnist_brain">https://github.com/ApelSYN/mnist_brain</a>
+    </p>
+
+</body>
+</html>
