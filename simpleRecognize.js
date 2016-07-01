@@ -1,4 +1,4 @@
-const brain = require('brain'),
+const brain = require('brain.js'),
       fs = require('fs'),
       mnist = require('mnist'),
       softmax = require('./lib/softmax');

@@ -1,6 +1,6 @@
 {
   "name": "mnist_brain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recognizing hand-written digits from MNIST dataset with Brain.js. Neural Networks example.",
   "main": "main.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ApelSYN/mnist_brain#readme",
   "dependencies": {
-    "brain": "^0.7.0",
+    "brain.js": "^0.7.0",
     "mnist": "git+https://github.com/ApelSYN/mnist.git"
   },
   "devDependencies": {
